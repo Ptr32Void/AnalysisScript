@@ -7,6 +7,7 @@ This repository will be updated as soon as a new tool is developed.
 - Downloader.Upatre Icon Extractor
 - MD5 generator for extracted Downloader.Upatre icons
 - IDA script to decrypt encrypted strings in Zbot samples
+- Zelix Klassmaster String Decryptor
  
 ### Downloader.Upatre Script Information
 The script should be copied inside a directory containing a list of samples (Upatre). 
@@ -37,3 +38,9 @@ The following image shows the decrypted strings:
 <p align="center">
   <img src="https://raw.githubusercontent.com/Ptr32Void/AnalysisScript/master/IDAScripts/dec_strings_screen.JPG"/>
 </p>
+
+### Zelix Klassmaster String Decryptor
+Zelix Klassmaster String Decryptor is a script that can be used to decrypt strings within Java Classes
+obfuscated with Zelix Klassmaster. It requires:
+- the keys to be changed (the keys can be found within the .class)
+- the strings to be decrypted
