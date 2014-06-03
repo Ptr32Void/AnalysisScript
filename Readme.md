@@ -44,3 +44,8 @@ Zelix Klassmaster String Decryptor is a script that can be used to decrypt strin
 obfuscated with Zelix Klassmaster. It requires:
 - the keys to be changed (the keys can be found within the .class)
 - the strings to be decrypted
+
+### Malware Downloader Class
+Malware Downloader Class is a Python class that I used to:
+- automatically download polymorphic generated files from infected servers
+- download Exploit Kit landing pages bypassing User-Agent and Referer checks
