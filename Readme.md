@@ -49,3 +49,9 @@ obfuscated with Zelix Klassmaster. It requires:
 Malware Downloader Class is a Python class that I used to:
 - automatically download polymorphic generated files from infected servers
 - download Exploit Kit landing pages bypassing User-Agent and Referer checks
+
+### RTF Object extractor
+Script used to extract embedded objects (eg.: MZ/DOC) from an RTF file.
+Eg.: cee7d315fe5c81c5aaf058e7c76a055a
+https://www.virustotal.com/en/file/29f7e528282c39e10f4d377de96219bf7c1aac4ce28df9d2d76a890f05c8e7d6/analysis/
+
