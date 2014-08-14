@@ -55,3 +55,9 @@ Script used to extract embedded objects (eg.: MZ/DOC) from an RTF file.
 Eg.: cee7d315fe5c81c5aaf058e7c76a055a
 https://www.virustotal.com/en/file/29f7e528282c39e10f4d377de96219bf7c1aac4ce28df9d2d76a890f05c8e7d6/analysis/
 
+### VBS/Dunihi Uninstaller
+This script is a remote VBS.Dunihi Malware Uninstaller. It is a small web server that 
+will be able to replace the Dunihi C&C server in order to send the "uninstall command"
+to the infected machines. Infected machines must re-route the C2 server traffic to 
+the Dunihi Uninstaller server.
+
