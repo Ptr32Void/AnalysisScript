@@ -9,6 +9,7 @@ This repository will be updated as soon as a new tool is developed.
 - IDA script to decrypt encrypted strings in Zbot samples
 - Zelix Klassmaster String Decryptor
 - Backdoor.Miniduke!gen4 strings decryptor
+- Trojan.Netweird logged keys Decryptor
  
 ### Downloader.Upatre Script Information
 The script should be copied inside a directory containing a list of samples (Upatre). 
@@ -67,4 +68,9 @@ Backdoor.Miniduke!gen4 strings decryptor is a script that can be used to decrypt
 Example MD5: c8eb6040fd02d77660d19057a38ff769
 It works the same way as the Zbot string decryptor works. It needs the start of the list of the encrypted strings and the end of the 
 list.
+
+### Trojan.Netweird logged keys Decryptor
+Trojan.Netweird logged keys Decryptor is a script that can be used to decrypt keylogged data.
+Log files are encrypted and normally stored in: %APPDATA%\Logs\dd-mm-yyyyy
+Example MD5: 78ff589aa5e8e174ce66db4bf8c19d84
 
