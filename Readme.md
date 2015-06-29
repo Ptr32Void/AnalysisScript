@@ -11,6 +11,7 @@ This repository will be updated as soon as a new tool is developed.
 - Backdoor.Miniduke!gen4 strings decryptor
 - Trojan.Netweird logged keys Decryptor
 - Analysis of the Advapi32.dll System DLL infected with Trojan.Ransomlock.AP (Trojan.Ransomlk.AP!inf)
+- Trojan.Swifi Shellcode decryptor
  
 ### Downloader.Upatre Script Information
 The script should be copied inside a directory containing a list of samples (Upatre). 
@@ -77,3 +78,6 @@ Example MD5: 78ff589aa5e8e174ce66db4bf8c19d84
 
 ### Analysis of the Advapi32.dll System DLL infected with Trojan.Ransomlock.AP (Trojan.Ransomlk.AP!inf)
 This report is an analysis of an infected system DLL named "Advapi32.dll" with a Ransomlock variant.
+
+### Trojan.Swifi Shellcode decryptor
+Python script used to decrypt a shellcode within a malicious Flash file.
