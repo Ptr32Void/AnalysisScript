@@ -1,6 +1,6 @@
-# AnalysisScripts
-A list of scripts released publicly used for malware analysis.
-This repository will be updated as soon as a new tool is developed.
+# Analysis&Scripts
+A list of malware analysis reports and scripts released publicly.
+This repository will be updated as soon as a new analysis or tool is developed.
 
 ## Script & Analysis list
 
@@ -12,6 +12,7 @@ This repository will be updated as soon as a new tool is developed.
 - Trojan.Netweird logged keys Decryptor
 - Analysis of the Advapi32.dll System DLL infected with Trojan.Ransomlock.AP (Trojan.Ransomlk.AP!inf)
 - Trojan.Swifi Shellcode decryptor
+- Trojan.Netduke - HAMMERTOSS (APT29) String Decryptor
  
 ### Downloader.Upatre Script Information
 The script should be copied inside a directory containing a list of samples (Upatre). 
@@ -81,3 +82,6 @@ This report is an analysis of an infected system DLL named "Advapi32.dll" with a
 
 ### Trojan.Swifi Shellcode decryptor
 Python script used to decrypt a shellcode within a malicious Flash file.
+
+### Trojan.Netduke - HAMMERTOSS (APT29) String Decryptor
+The script can be used to decrypt encrypted strings in Trojan.Netduke (or APT29) samples. 
